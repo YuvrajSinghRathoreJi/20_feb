@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int num; 
+    int total=0;
+    for(num=1;num<=50;num++){
+        printf("\n %d",num); 
+        total = total+num;
+    }
+     printf("\n average %d",total/50);
+
+    return 0;
+}

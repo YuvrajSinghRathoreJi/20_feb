@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+int a,b,c, total;
+printf("Enter the value a");
+scanf("%d",&a);
+printf("Enter the value b");
+scanf("%d",&b);
+printf("Enter the value c");
+scanf(" %d",&c);
+
+total = a*b*c;
+printf("Total Intrest Is");
+printf("%d", total/100);
+
+return 0;
+}
+

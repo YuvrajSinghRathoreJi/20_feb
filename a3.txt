@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int num; 
+    int total=0;
+    for(num=1;num<=100;num++){
+        printf("\n %d",num); 
+        total = total+num;
+    }
+     printf("total value is %d",total);
+
+    return 0;
+}
